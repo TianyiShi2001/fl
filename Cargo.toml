@@ -1,0 +1,13 @@
+[package]
+name = "fl"
+version = "0.0.1"
+authors = ["Tianyi Shi <ShiTianyi2001@outlook.com>"]
+description = "A FIG Driver written in Rust which aims to fully implement the FIGfont spec to create ascii art (figlets)."
+keywords = ["ascii-art", "figlet", "text", "terminal"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitflags = "1.2"
